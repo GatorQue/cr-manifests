@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/GatorQue/" />
+
+  <default remote="github" revision="develop" dest-branch="develop" />
+
+  <!-- Android CosmicRover Game projects -->
+  <project path="corral" name="cr-corral" remote="github" />
+  <project path="grasshopper" name="cr-grasshopper" remote="github" />
+</manifest>
